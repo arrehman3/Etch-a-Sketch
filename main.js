@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded',()=>{
     const container = document.querySelector('.container');
     for(let i=0;i<16;i++){
@@ -6,6 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const square = document.createElement('div');
             square.setAttribute('class','square');
             container.appendChild(square);
+
 
             square.addEventListener('mouseenter',()=>{
                 square.style.backgroundColor='blue';
@@ -44,4 +44,5 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     
 })
+
 
